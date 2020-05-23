@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 @RestController
@@ -33,6 +33,9 @@ public class TodoController {
     @GetMapping(value = "/todos")
     public List<Todo> getTodos() {
         ArrayList<Todo> arrayList = new ArrayList<>();
+//        List<Todo> arrayList = new ArrayList<>();
+//        List<Todo> arrayList = new LinkedList<>();
+//        ArrayList<Todo> arrayList = new LinkedList<Todo>();
         for (int i = 0; i < 30; i++) {
             arrayList.add(getSampleTodo());
         }
