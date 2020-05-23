@@ -40,3 +40,7 @@ It will give you a zip file. extract it and intellij IDEA select open project ->
 ```bash
 ./mvnw spring-boot:run
 ```
+
+#### Postman request collections
+
+You can download postman request collections form [here](https://www.getpostman.com/collections/ef8c1a11c1258825b34a)
