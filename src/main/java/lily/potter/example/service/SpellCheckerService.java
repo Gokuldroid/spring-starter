@@ -9,7 +9,6 @@ public class SpellCheckerService {
 
     @Autowired
     EnglishSpellChecker englishSpellChecker;
-
     @Autowired
     TamilSpellChecker tamilSpellChecker;
 
@@ -22,5 +21,4 @@ public class SpellCheckerService {
                 return englishSpellChecker.checkSpelling(text);
         }
     }
-
 }

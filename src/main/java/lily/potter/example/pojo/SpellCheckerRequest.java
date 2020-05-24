@@ -6,7 +6,4 @@ public class SpellCheckerRequest {
 
     @NonNull
     public String text;
-
-    @NonNull
-    public String language;
 }
